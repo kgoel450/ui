@@ -1,0 +1,43 @@
+/* ---------------------------MoveTable-------------------- */
+.move-container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: 60%;
+  margin:25px;
+  border-radius: 15px;
+  margin-top: -5%;
+  margin-left: -0%;
+}
+
+table {
+  display: grid;
+  position: static;
+  overflow-y: scroll;
+  height: 650px;
+  max-height: 650px;
+  width: 200px;
+  max-width: 200px;
+  padding: 5%;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  border-width: 2px;
+  max-height: 50%; 
+  background-color: rgb(255, 255, 255);
+}
+
+.tab {
+  text-align: center;
+}
+
+/* tr {
+  height: 110px;
+  max-height: 110px;
+} */
+
+td {
+  width: 100px;
+  font-weight: bold;
+  position: static;
+  padding: 10%;
+}
